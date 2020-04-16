@@ -18,7 +18,7 @@ All of the exercises & examples in this repository are plain JS files that will 
 
 ### `index.html`
 
-There is an `index.html` at the top level of this repository.  To step through the code in your browser's debugger or JS Tutor, `index.html` with `liveServer`.  The live page will have a button for each javascript file in this repository.  There will be 3 buttons per file:
+There is an `index.html` at the top level of this repository.  To step through the code in your browser's debugger or JS Tutor, `index.html` with `liveServer`.  The live page will have a button for each javascript file in this repository.  There will be 3 buttons per file: 
 
 1. The first button will simply run your code in the browser, logging any results to the console.
 1. The second button will inject a `debugger` statement so you can step through your code in your browser's debugger
