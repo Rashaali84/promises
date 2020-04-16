@@ -1,12 +1,12 @@
 const name = 'f.i.t.b: challenge 3';
-
+//function takes new promise with input value
 const challenge3 = (value) => new Promise(
   (res, rej) => {
     setTimeout(() => {
-      if (_) {
-        _;
+      if (value > 30) {
+        res(value);
       } else {
-        _;
+        rej(value);
       };
     }, 0)
   })

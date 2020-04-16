@@ -1,18 +1,18 @@
 const name = 'f.i.t.b: challenge 1';
-
+//every promise has a resolve() and reject(message) 
 const challenge1 = (value) => new Promise(
   (res, rej) => {
     setTimeout(() => {
       if (value < 30) {
-        _(value);
+        res(value);
       } else {
-        _(value);
+        rej(value);
       };
     }, 0)
-  })
+  })//end of response first part .then if valid .catch if error
   .then(
-    (resolvedVal) => resolvedVal < _,
-    (rejectedVal) => rejectedVal _ _
+    (resolvedVal) => resolvedVal < 30,
+    (rejectedVal) => rejectedVal >= 30
   )
   .then(assertion => {
     return { value, pass: assertion };
